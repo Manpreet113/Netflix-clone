@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    padding: 10px;
+    background-color: black;
+  }
+  
+  .logo {
+    font-size: 20px;
+    color: red;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  .movie-row {
+    margin-bottom: 20px;
+  }
+  
+  .movie-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .movie {
+    width: 150px;
+    height: 225px;
+    background: gray;
+  }
+  
