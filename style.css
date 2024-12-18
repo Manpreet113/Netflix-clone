@@ -40,6 +40,13 @@ body, html {
   button {
     background-color: red;
     color: white;
+    height: 45px;
+    width: 100px;
+  }
+
+  input {
+    height: 40px;
+    width: 250px;
   }
 
   #que {
@@ -106,4 +113,13 @@ body, html {
     box-sizing: border-box;
     
   }
+  
+  select {
+    height: 40px;
+    width: 100px;
+    backface-visibility: inherit;
+    background-color: black;
+    color: azure;
+  }
+
   
